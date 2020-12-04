@@ -1,1 +1,138 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#title {
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #232323;
+  text-align: center;
+}
+
+#input-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem;
+}
+
+#input-sec #ques input {
+  margin: 1.5rem;
+  width: 50rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 5px 4px 35px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 4px 35px 6px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 20px;
+  text-indent: 16px;
+}
+
+#input-sec #ans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  color: #3a3a3a;
+}
+
+#input-sec #ans input {
+  margin: 1rem 1rem;
+  height: 3rem;
+  border: none;
+  border-radius: 20px;
+  text-indent: 15px;
+  font-size: 1rem;
+}
+
+#submit-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4.5rem;
+}
+
+#submit-sec #setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#submit-sec button {
+  margin: 0 0 0 1rem;
+  border-radius: 20px;
+  border: none;
+  width: 5rem;
+  height: 2.5rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#submit-sec #done {
+  background-color: #aeb6c2;
+  cursor: pointer;
+}
+
+#submit-sec #next {
+  background-color: #f09f76;
+  cursor: cell;
+}
+
+#submit-sec #next:hover,
+#submit-sec #done:hover {
+  -webkit-filter: saturate(2);
+          filter: saturate(2);
+}
+/*# sourceMappingURL=style.css.map */
